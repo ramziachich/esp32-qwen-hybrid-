@@ -2,7 +2,7 @@
 #include <WebServer.h>
 #include <ArduinoOTA.h>
 #include <ArduinoJson.h>
-
+#include "ollama_client.h"
 extern void init_bluetooth(const char* speaker_name);
 extern bool is_bluetooth_connected();
 extern void play_notification();
